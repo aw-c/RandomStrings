@@ -1,5 +1,8 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
+using System.Threading;
 using static System.Console;
+using System.Threading.Tasks;
 
 namespace HelloApp
 {
@@ -16,6 +19,7 @@ namespace HelloApp
                 var s = ReadLine();
                 int i;
                 int.TryParse(s, out i);
+                var text = yesno ? "Попытка генерации строк с использованием асинхронности:" : "Попытка синхронной генерации строк:";
                 WriteLine("Попытка генерации строк с использованием асинхронности:");
                 var time = DateTime.Now;
                 WriteLine("Начало генерации - " + time);
@@ -41,7 +45,7 @@ namespace HelloApp
                         WriteLine("Конец итерации генерации " + iters + " наступил на - " + DateTime.Now + " - начало - " + time + " Заняло: " + DateTime.Now.Subtract(time));
                     }
                 }
-                var text = yesno ? "\n\nКонец генерации ещё не наступил" : "\n\nНаступил конец генерации";
+                text = yesno ? "\n\nКонец генерации ещё не наступил" : "\n\nНаступил конец генерации";
                 WriteLine(text);
                 ReadLine();
             //}
