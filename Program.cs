@@ -17,7 +17,7 @@ namespace HelloApp
                 int i;
                 int.TryParse(s, out i);
                 var text = yesno ? "Попытка генерации строк с использованием асинхронности:" : "Попытка синхронной генерации строк:";
-                WriteLine("Попытка генерации строк с использованием асинхронности:");
+                WriteLine(text);
                 var time = DateTime.Now;
                 WriteLine("Начало генерации - " + time);
                 var iters = 0;
