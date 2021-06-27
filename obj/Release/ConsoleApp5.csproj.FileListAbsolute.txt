@@ -1,0 +1,7 @@
+C:\Users\aw\source\repos\ConsoleApp5\ConsoleApp5\obj\Release\ConsoleApp5.csproj.CoreCompileInputs.cache
+C:\Users\aw\source\repos\ConsoleApp5\ConsoleApp5\bin\Release\SpeedTestC#.exe.config
+C:\Users\aw\source\repos\ConsoleApp5\ConsoleApp5\bin\Release\SpeedTestC#.exe
+C:\Users\aw\source\repos\ConsoleApp5\ConsoleApp5\bin\Release\SpeedTestC#.pdb
+C:\Users\aw\source\repos\ConsoleApp5\ConsoleApp5\obj\Release\SpeedTestC#.exe
+C:\Users\aw\source\repos\ConsoleApp5\ConsoleApp5\obj\Release\SpeedTestC#.pdb
+C:\Users\aw\source\repos\ConsoleApp5\ConsoleApp5\obj\Release\ConsoleApp5.csproj.AssemblyReference.cache
